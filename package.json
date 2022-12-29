@@ -1,0 +1,28 @@
+{
+  "name": "mongo",
+  "version": "0.0.1",
+  "description": "aplicacao web com admin integrado",
+  "main": "app.ts",
+  "scripts": {
+    "start": "ts-node app.ts",
+    "start-dev": "ts-node-dev app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria Emilia",
+  "license": "MIT",
+  "dependencies": {
+    "@adminjs/express": "^5.0.1",
+    "@adminjs/mongoose": "^3.0.1",
+    "@adminjs/sequelize": "^3.0.0",
+    "adminjs": "^6.7.2",
+    "dotenv": "^16.0.3",
+    "express-mysql-session": "^2.1.8",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "sequelize-cli": "^6.5.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
